@@ -1,0 +1,22 @@
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+ .glow {
+      box-shadow: 0 0 20px #5e4b8b, 0 0 40px #5e4b8b;
+    }
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+  }
+
+
+.animate-fade-in {
+  animation: fade-in 1s ease-out forwards;
+}
+
+
+.project-link {
+  @apply text-[#5e4b8b] hover:text-white font-medium text-sm;
+}
